@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+  
+  <main class="contenedor">
+
+    <form class="formulario">
+      <h1>Datos del paciente</h1>
+
+      <label class="formulario__grupo">Nombre del paciente</label>
+      <input class="formulario__grupo grupo__input" type="text" placeholder="Nombre del paciente" id="nombre">
+      <label class="formulario__grupo">Apellido</label>
+      <input class="formulario__grupo grupo__input" type="text" placeholder="Apellido" id="apellido">
+      <label class="formulario__grupo">Telefono</label>
+      <input class="formulario__grupo grupo__input" type="number" placeholder="Numero de telefono" id="telefono">
+      <label class="formulario__grupo">Fecha</label>
+      <input class="formulario__grupo grupo__input" type="date" placeholder="Fecha" id="fecha">
+      <label class="formulario__grupo">Hora</label>
+      <input class="formulario__grupo grupo__input" type="time" placeholder="Hora" id="hora">
+      <label class="formulario__grupo">Sintomas</label>
+      <textarea class="formulario__grupo grupo__input" cols="30" rows="5" id="sintomas"></textarea>
+      <div class="vandera">
+        <button class="boton" type="submit">Guardar</button>
+      </div>
+    </form>
+
+    <div class="turnos">
+      <h2>Turnos solicitados</h2>
+      <div class="turnos__lista"></div>
+    </div>
+    <div class="section">
+      <img src="/imagenes/undraw_medicine_b1ol.svg" alt="imagen">
+    </div>
+
+  </main>
+  <script src="./js/app.js" type="module"></script>
+</body>
+</html>

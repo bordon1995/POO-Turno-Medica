@@ -1,0 +1,85 @@
+:root {
+  --fonFamily: "Mate SC", serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: var(--fonFamily);
+  width: 100%;
+  height: 600px;
+}
+main {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  justify-content: center;
+  margin: 0px 20px;
+  background-color: white;
+  margin-top: 50px;
+}
+form {
+  width: 100%;
+}
+form .vandera {
+  text-align: center;
+}
+.formulario__grupo {
+  display: block;
+  padding: 5px;
+}
+.grupo__input {
+  margin-left: 5px;
+  width: 85%;
+}
+.section {
+  margin-top: auto;
+  grid-column: 3/4;
+}
+.boton {
+  padding: 5px 40px;
+  margin: 10px;
+}
+.vandera {
+  width: 90%;
+}
+img {
+  height: auto;
+  width: auto;
+  max-width: 800px;
+  max-height: 300px;
+}
+.turnos h2 {
+  text-align: center;
+  padding-bottom: 15px;
+  margin-top: 45px;
+}
+.pacientes {
+  border: 1px solid black;
+  width: 80%;
+  margin-bottom: 10px;
+}
+ul {
+  margin: 5px 0px;
+  padding-left: 20px;
+}
+.pacientes .boton2 {
+  text-align: center;
+}
+.items__parrafo {
+  margin: 0px;
+  margin-left: 5px;
+  font-family: monospace;
+}
+.items__boton {
+  margin: 0px 10px;
+  padding: 0px 10px;
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+span {
+  font-weight: 600;
+  font-family: monospace;
+}
